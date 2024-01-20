@@ -1,0 +1,102 @@
+/* Mozilla IOS */
+@media only screen and (hover: none) and (pointer: coarse) {
+  .titre,
+  footer {
+    font-size: 200%;
+    margin: 3%;
+    padding: 3%;
+    line-height: 250%;
+    letter-spacing: 0px;
+  }
+
+  p {
+    font-size: 150%;
+    margin: 3%;
+    padding: 3%;
+  }
+
+  .galerie {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 5%;
+    font-size: 150%;
+  }
+
+  .galerie img {
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4 / 5;
+    filter: blur(0);
+  }
+
+  .galerie figcaption {
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+/* Android Chromium */
+@media only screen and (hover: hover) and (pointer: coarse) {
+  
+    .titre,
+  footer {
+    font-size: 200%;
+    margin: 3%;
+    padding: 3%;
+    line-height: 250%;
+    letter-spacing: 0px;
+  }
+
+  p {
+    font-size: 150%;
+    margin: 3%;
+    padding: 3%;
+  }
+
+  .galerie {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 5%;
+    font-size: 150%;
+  }
+
+  .galerie img {
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4 / 5;
+    filter: blur(0);
+  }
+
+  .galerie figcaption {
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 0 0 15px 15px;
+  }
+}
